@@ -2,12 +2,12 @@
 # AIM
 To study and implement Stack implementation using array. <BR>
 Menu options -  <BR>
-1. PushV <BR>
+1. Push <BR>
 2. Pop <BR>
 3. Display <BR>
 4. Exit <BR>
 <BR>
-# THEORY 
+# THEORY <BR>
 A stack is a linear data structure that follows the Last In, First Out (LIFO) principle.This means that the final piece added to the stack will be the first one removed. In C++, a stack can be implemented by storing elements in an array and performing the following operations using functions: <BR>
 1. Push: Adds an element to the top of the stack. <BR>
 2. Pop: Removes and returns the element from the top of the stack. <BR>
