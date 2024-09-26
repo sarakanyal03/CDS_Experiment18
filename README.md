@@ -13,7 +13,7 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 2. Pop: Removes and returns the element from the top of the stack. <BR>
 3. Display: Displays all elements in the stack. <BR>
 4. Exit: Terminates the program. <BR>
-<BR>
+
 *Stack Implementation Using an Array in C++*
 1. Array as the Stack: An array is used to store stack elements, and a variable `top` keeps track of the index of the `top` element. Initially, top is set to `-1`, indicating an empty stack.
 
