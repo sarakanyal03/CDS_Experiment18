@@ -6,7 +6,7 @@ Menu options -  <BR>
 2. Pop <BR>
 3. Display <BR>
 4. Exit <BR>
-<BR>
+
 # THEORY <BR>
 A stack is a linear data structure that follows the Last In, First Out (LIFO) principle.This means that the final piece added to the stack will be the first one removed. In C++, a stack can be implemented by storing elements in an array and performing the following operations using functions: <BR>
 1. Push: Adds an element to the top of the stack. <BR>
