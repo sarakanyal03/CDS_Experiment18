@@ -7,7 +7,7 @@ Menu options -  <BR>
 3. Display <BR>
 4. Exit <BR>
 
-# THEORY <BR>
+### THEORY <BR>
 A stack is a linear data structure that follows the Last In, First Out (LIFO) principle.This means that the final piece added to the stack will be the first one removed. In C++, a stack can be implemented by storing elements in an array and performing the following operations using functions: <BR>
 1. Push: Adds an element to the top of the stack. <BR>
 2. Pop: Removes and returns the element from the top of the stack. <BR>
@@ -23,7 +23,7 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 
 4. Display Operation: The `display` operation prints all the elements in the stack from the top to the bottom.
 
-# CODE & OUTPUT 
+### CODE & OUTPUT 
 1. CODE A: <BR>
 ```
 //SARA KANYAL 
@@ -191,5 +191,5 @@ int main()
 ```
 * OUTPUT B: <BR>
 ![EXP18B](https://github.com/sarakanyal03/CDS_Experiment18/blob/main/18B.png)
-# CONCLUSION 
+### CONCLUSION 
 Implementing a stack with an array in C++ is an efficient and straightforward technique to manage data that adheres to the LIFO principle. The menu-driven application allows users to interact with the stack by performing operations such as push, pop, and show, while also ensuring that stack overflow and underflow are handled gracefully. <BR>
