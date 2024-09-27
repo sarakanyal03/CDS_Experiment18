@@ -1,4 +1,4 @@
-# EXPERIMENT 17
+# EXPERIMENT 18
 # AIM
 To study and implement Stack implementation using array. <BR>
 Menu options -  <BR>
@@ -130,7 +130,7 @@ int main() {
 ```
 //SARA KANYAL 
 //23070123115
-//EXPERIMENT 17-A 
+//EXPERIMENT 18-A 
 #include <iostream>
 using namespace std;
 int stack[100], n=100, top=-1;
@@ -196,12 +196,12 @@ int main() {
 }
 ```
 * OUTPUT A: <BR>
-![EXP17A](https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17a(3).png)
+![EXP18A](https://github.com/sarakanyal03/CDS_Experiment18/blob/main/18A.png)
 2. CODE B: <BR>
 ```
 //SARA KANYAL
 //23070123115
-//EXPERIMENT 17-B
+//EXPERIMENT 18-B
 #include <iostream>
 using namespace std;
 #define size 5
@@ -292,6 +292,6 @@ int main()
 }
 ```
 * OUTPUT B: <BR>
-![EXP17B]( https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17b.png)
+![EXP18B](https://github.com/sarakanyal03/CDS_Experiment18/blob/main/18B.png)
 # CONCLUSION 
 Implementing a stack with an array in C++ is an efficient and straightforward technique to manage data that adheres to the LIFO principle. The menu-driven application allows users to interact with the stack by performing operations such as push, pop, and show, while also ensuring that stack overflow and underflow are handled gracefully. <BR>
