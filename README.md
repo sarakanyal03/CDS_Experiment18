@@ -126,12 +126,82 @@ int main() {
 }
 ```
 # CODE & OUTPUT 
-1. CODE A:
+1. CODE A: <BR>
+```
+//SARA KANYAL 
+//23070123115
+//EXPERIMENT 17-A 
+#include <iostream>
+using namespace std;
+int stack[100], n=100, top=-1;
+void push(int val) {
+   if(top>=n-1)
+   cout<<"Stack Overflow"<<endl;
+   else {
+      top++;
+      stack[top]=val;
+   }
+}
+void pop() {
+   if(top<=-1)
+   cout<<"Stack Underflow"<<endl;
+   else {
+      cout<<"The popped element is "<< stack[top] <<endl;
+      top--;
+   }
+}
+void display() {
+   if(top>=0) {
+      cout<<"Stack elements are:";
+      for(int i=top; i>=0; i--)
+      cout<<stack[i]<<" ";
+      cout<<endl;
+   } else
+   cout<<"Stack is empty";
+}
+int main() {
+   int ch, val;
+   cout<<"1) Push in stack"<<endl;
+   cout<<"2) Pop from stack"<<endl;
+   cout<<"3) Display stack"<<endl;
+   cout<<"4) Exit"<<endl;
+   do {
+      cout<<"Enter choice: "<<endl;
+      cin>>ch;
+      switch(ch) {
+         case 1: {
+            cout<<"Enter value to be pushed:"<<endl;
+            cin>>val;
+            push(val);
+            break;
+         }
+         case 2: {
+            pop();
+            break;
+         }
+         case 3: {
+            display();
+            break;
+         }
+         case 4: {
+            cout<<"Exit"<<endl;
+            break;
+         }
+         default: {
+            cout<<"Invalid Choice"<<endl;
+         }
+      }
+   }while(ch!=4);
+   return 0;
+}
+```
+* OUTPUT A: <BR>
+![EXP17A]( https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17a(2).png)
+2. CODE B: <BR>
 ```
 //SARA KANYAL
-//entc B2
 //23070123115
-//experiment 17 A
+//EXPERIMENT 17-B
 #include <iostream>
 using namespace std;
 #define size 5
@@ -221,6 +291,7 @@ int main()
     return 0;
 }
 ```
-* OUTPUT A: ![EXP17A]( )
+* OUTPUT B: <BR>
+![EXP17B]( https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17b.png)
 # CONCLUSION 
 Implementing a stack with an array in C++ is an efficient and straightforward technique to manage data that adheres to the LIFO principle. The menu-driven application allows users to interact with the stack by performing operations such as push, pop, and show, while also ensuring that stack overflow and underflow are handled gracefully. <BR>
