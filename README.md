@@ -196,7 +196,7 @@ int main() {
 }
 ```
 * OUTPUT A: <BR>
-![EXP17A]( https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17a(2).png)
+![EXP17A]([https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17a(2).png](https://github.com/sarakanyal03/CDS_Experiment17/blob/main/17a(3).png))
 2. CODE B: <BR>
 ```
 //SARA KANYAL
